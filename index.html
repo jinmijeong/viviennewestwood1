@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <style>
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-container.section03_slide {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .collection_slide .swiper-pagination-bullet {
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            font-size: 12px;
+            color: #666;
+            opacity: 1;
+            background: none;
+        }
+
+        .collection_slide .swiper-pagination-bullet-active {
+            color: #333;
+        }
+
+        .swiper-container-horizontal.collection_slide01>.swiper-pagination-bullets,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 20px;
+            right: 40px;
+            text-align: right;
+        }
+
+        .swiper-container-horizontal.collection_slide02>.swiper-pagination-bullets,
+        .swiper-pagination-custom,
+        .swiper-pagination-fraction {
+            bottom: 20px;
+            left: 40px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <header id="headerWrap">
+            <div class="header_inner">
+                <div class="logo_box"><a href="#"><img src="img/header_logo.png" alt="비비안 웨스트우드 로고 vivienne westwood logo"></a></div>
+                <div class="menu_box">
+                    <ul class="menu tc">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Collection</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">col1</a></li>
+                                <li><a href="#">col2</a></li>
+                                <li><a href="#">col3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Community</a>
+                            <ul class="sub_menu">
+                                <li><a href="#">Notice</a></li>
+                                <li><a href="#">Q&amp;A</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="login_menu" module="Layout_statelogoff">
+                        <li class="mypage_join"><a href="/member/login.html" alt="로그인" title="로그인"><i class="material-icons">input</i></a></li>
+                        <li class="mypage_search"><a href="#" alt="상품검색" title="상품검색"><i class="material-icons">search</i></a></li>
+                        <li class="mypage_join"><a href="/myshop" alt="마이페이지" title="마이페이지"><i class="material-icons">person</i></a></li>
+                        <li class="mypage_cart"><a href="/order/basket.html" alt="장바구니" title="장바구니"><i class="material-icons">shopping_cart</i></a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </header>
+        <div id="mainWrap">
+            <div id="fullpage">
+                <section id="section01" class="section">
+                    <div class="main_visual">
+                        <a href="#" class="visual_contents">
+                            <div class="visual_text_box title_wrap">
+                                <span class="visual_title vivienne_title">Vivienne</span>
+                                <span class="visual_subtitle vivienne_subtitle">Westwood</span>
+                            </div>
+                        </a>
+
+                    </div>
+                </section>
+                <section id="section02" class="section">
+                    <!-- Swiper -->
+                    <div class="swiper-container collection_slide collection_slide01">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="contents_box contents_box01 clearFix">
+                                    <div class="product_info fl">
+                                        <div class="text_box">
+                                            <p>TYPE01</p>
+                                            <h2>ORB POP</h2>
+                                        </div>
+                                    </div>
+                                    <div class="product_img fr">
+                                        <div>
+                                            <div class="img_box">
+                                                <a href="#"><img src="img/product_01_02.jpg" alt=""></a>
+                                            </div>
+                                            <div class="text_box">
+                                                <span class="prd">모델명을좌라라락</span>
+                                                <h3>1,000원</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="contents_box contents_box01 clearFix">
+                                    <div class="product_info fl">
+                                        <div class="text_box">
+                                            <p>TYPE01</p>
+                                            <h2>ORB POP</h2>
+                                        </div>
+                                    </div>
+                                    <div class="product_img fr">
+                                        <div>
+                                            <div class="img_box">
+                                                <a href="#"><img src="img/product_01_02.jpg" alt=""></a>
+                                            </div>
+                                            <div class="text_box">
+                                                <span class="prd">모델명을좌라라락</span>
+                                                <h3>1,000원</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="contents_box contents_box01 clearFix">
+                                    <div class="product_info fl">
+                                        <div class="text_box">
+                                            <p>TYPE01</p>
+                                            <h2>ORB POP</h2>
+                                        </div>
+                                    </div>
+                                    <div class="product_img fr">
+                                        <div>
+                                            <div class="img_box">
+                                                <a href="#"><img src="img/product_01_02.jpg" alt=""></a>
+                                            </div>
+                                            <div class="text_box">
+                                                <span class="prd">모델명을좌라라락</span>
+                                                <h3>1,000원</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="contents_box contents_box01 clearFix">
+                                    <div class="product_info fl">
+                                        <div class="text_box">
+                                            <p>TYPE01</p>
+                                            <h2>ORB POP</h2>
+                                        </div>
+                                    </div>
+                                    <div class="product_img fr">
+                                        <div>
+                                            <div class="img_box">
+                                                <a href="#"><img src="img/product_01_02.jpg" alt=""></a>
+                                            </div>
+                                            <div class="text_box">
+                                                <span class="prd">모델명을좌라라락</span>
+                                                <h3>1,000원</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination tr"></div>
+
+                    </div>
+                </section>
+                <section id="section02" class="section">
+                    <!-- Swiper -->
+                    <div class="swiper-container collection_slide collection_slide02">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="contents_box contents_box01 clearFix">
+                                    <div class="product_info fr">
+                                        <div class="text_box">
+                                            <p>TYPE01</p>
+                                            <h2>ORB POP</h2>
+                                        </div>
+                                    </div>
+                                    <div class="product_img fl">
+                                        <div>
+                                            <div class="img_box">
+                                                <a href="#"><img src="img/product_01_02.jpg" alt=""></a>
+                                            </div>
+                                            <div class="text_box">
+                                                <span class="prd">모델명을좌라라락</span>
+                                                <h3>1,000원</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination tl"></div>
+                    </div>
+                </section>
+                <section id="section03" class="section">
+                    <div class="contents_box">
+                        <div class="title_wrap tc">
+                            <span class="vivienne_subtitle">Vivienne Westwood</span>
+                            <span class="vivienne_title">Vivienne</span>
+                        </div>
+                        <!-- Swiper -->
+                        <div class="swiper-container section03_slide">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">Slide 1</div>
+                                <div class="swiper-slide">Slide 2</div>
+                                <div class="swiper-slide">Slide 3</div>
+                                <div class="swiper-slide">Slide 4</div>
+                                <div class="swiper-slide">Slide 5</div>
+                                <div class="swiper-slide">Slide 6</div>
+                                <div class="swiper-slide">Slide 7</div>
+
+                            </div>
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </section>
+                <section id="section04" class="section">
+                    <a href="#">
+                        <div class="about_logo">
+                            <img src="img/logo_w.png" alt="">
+                        </div>
+                    </a>
+                </section>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="js/fullpage.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+    $(document).ready(function() {
+        var myFullpage = new fullpage('#fullpage', {
+            //options here
+            licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+            autoScrolling: true,
+            scrollHorizontally: true,
+            navigation: true,
+            navigationPosition: 'right',
+            scrollingSpeed: 1500,
+            loopBottom: true
+        });
+
+        /* header menu */
+        $(".menu > li").bind("mouseenter focusin", function() {
+            $(this).find(".sub_menu").addClass("on");
+        }).bind("mouseleave focusout", function() {
+            $(".sub_menu").removeClass("on");
+        })
+
+        /* main swiper */
+        var swiper = new Swiper('.swiper-container.collection_slide', {
+            slidesPerView: 1,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function(index, className) {
+                    return '<span class="' + className + '">' + "0" + (index + 1) + '</span>';
+                },
+            },
+        });
+        var swiper = new Swiper('.swiper-container.section03_slide', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true,
+            navigation: {
+                nextEl: '.section03_slide .swiper-button-next',
+                prevEl: '.section03_slide .swiper-button-prev',
+            },
+        });
+
+    });
+</script>
+
+</html>
