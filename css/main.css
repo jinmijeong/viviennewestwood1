@@ -373,10 +373,10 @@ margin-top:40px;
     padding:0 20px;
 }
 .footer_inner .contents_wrap .content_box.narrow_area{
-    flex:1;
+    flex-grow:1;
 }
 .footer_inner .contents_wrap .content_box.wide_area{
-    flex:2;
+    flex-grow:2;
 }
 .footer_inner .contents_wrap .content_box .footer_logo a{
     display: block;
