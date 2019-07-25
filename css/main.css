@@ -144,12 +144,12 @@ color:#888;
 /* section01 (main visual) */
 #section01 .main_visual{
     display: block;
-width: 90%;
-margin: 0 auto;
-position: relative;
-overflow: hidden;
-height: 80vh;
-margin-top: 70px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 83vh;
+    margin-top: 45px;
 }
 #section01 .main_visual .visual_contents{
 width:100%;
